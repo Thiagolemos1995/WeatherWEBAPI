@@ -1,0 +1,120 @@
+/* Definindo a fonte Rimouski */
+*{
+    font-family: "Rimouski";
+}
+/* cor de fundo geral */
+body{
+    background-color: rgb(138, 150, 190);
+}
+/* cor de fundo do card weather */
+#container{
+    width: 300px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+/* estilo do titulo e seus elementos */
+#app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+#app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: rgb(41, 50, 81);
+}
+/* estilo das notificaçoes e seus elementos */
+#notification{
+    background-color: rgb(248, 215, 218);
+}
+#notification p{
+    color: rgb(114, 28, 36);
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+/* estilo do card do icone de clima */
+#weather-container{
+    width: 300px;
+    height: 320px;
+    background-color: rgb(244, 249, 255);
+}
+/* estillo da div onde aparecerá o icone */
+#weather-icon{
+    width: 300px;
+    height: 128px;
+}
+#weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+/* estilo do valor de temperatura */
+.temperature-value{
+    width: 300px;
+    height: 60px;
+}
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: rgb(41, 50, 81);
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value span{
+    color: rgb(41, 50, 81);
+    font-size: 0.5em;
+}
+/* estilo do valor do card de temperatura max-min */
+.temperature-max, .temperature-min{
+    margin-top: 10px;
+}
+.temperature-max p, .temperature-min p{
+    padding: 0;
+    margin: 0;
+    color: rgb(41, 50, 81);
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-max span, .temperature-min span{
+    color: rgb(41, 50, 81);
+    font-size: 0.5em;
+}
+/* estilo da descrição da temperatura */
+.temperature-desc p{
+    padding: 8px;
+    margin: 0;
+    color: rgb(41, 50, 81);
+    text-align: center;
+    font-size: 1.2em;
+}
+/* estilo da localização */
+.location p{
+    margin: 0;
+    padding: 0;
+    color: rgb(41, 50, 81);
+    text-align: center;
+    font-size: 0.8em;
+}
+/* Estilo dos inputs */
+input{
+    margin-top: 20px;
+}
+#city{
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+}
+#button{
+    height: 30px;
+    font-size: small;
+    background-color: rgb(41, 50, 81);
+    color: white;
+}

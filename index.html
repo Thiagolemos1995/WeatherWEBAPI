@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="font/Rimouski.css"/>
+        <link rel="stylesheet" href="styles/style.css"/>
+        <title>Clima</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="app-title"><p>Clima</p></div>
+            <div id="notification"></div>
+            <div id="weather-container">
+                <div id="weather-icon"><img src="icons/unknown.png"></div>
+                <div class="temperature-value"><p>- º<span>C</span></p></div>
+                <div class="temperature-max"><p>Temp. Máx: - º<span>C</span></p></div>
+                <div class="temperature-min"><p>Temp. min: - º<span>C</span></p></div>
+                <div class="temperature-desc"><p> - </p></div>
+                <div class="location"><p>-</p><p><input type="text" id="city"><input type="submit" id="button" value="Aplicar" onclick="getLocation()"></p></div>
+            </div>
+        </div>
+        <script src="weatherapp.js"></script>
+    </body>
+</html>
